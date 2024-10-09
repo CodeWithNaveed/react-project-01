@@ -26,8 +26,18 @@ function App() {
   return (
     <div
       style={{
-        backgroundColor: darkThemeHandler ? "black" : "white",
+        backgroundColor: darkThemeHandler ? "black" : "rgba(116, 117, 118, 0.518)",
         color: darkThemeHandler ? "white" : "black",
+        height: "50vh",
+        width: "50vw",
+        margin: "100px auto",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: "10px",
+        borderRadius: "10px",
+        padding: "50px",
       }}
     >
       <h1>{advice}</h1>
